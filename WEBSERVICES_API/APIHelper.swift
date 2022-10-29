@@ -46,7 +46,7 @@ struct APIHelper{
                     print("error \(er)")
                 }
             } else if let error = error {
-                print("error was noticed: \(error)")
+                print("error has been found: \(error)")
             } else {
                 print("opps, something went wrong")
             }
@@ -54,4 +54,38 @@ struct APIHelper{
         demandtask.resume()
     }
     
+    static func fetchImage(url: String, callback: @escaping ([String]) -> Void){
+   // for the breed images
+        guard
+            // guard function
+            let url = URL(string: url)
+        else{return}
+        
+        let datarequest = URLRequest(url: url)
+        let demandtask = session.dataTask(with: datarequest) {
+            data, response, error in
+
+            if let data = data {
+                do{
+                    let jsonObject = try JSONSerialization.jsonObject(with: data, options: [])
+                    guard
+                        let jsonDictionary = jsonObject as? [AnyHashable: Any],
+                        let dogImage = jsonDictionary["message"] as? [String]
+                    else {preconditionFailure("could not parse JSOn data")}
+      
+                    OperationQueue.main.addOperation {
+                        callback(dogImage)
+                    }
+                } catch let er {
+                    print("error \(er)")
+                }
+            } else if let error = error {
+                print("error has been found: \(error)")
+            } else {
+                print("opps something went wrong")
+            }
+        }
+        demandtask.resume()
+    }
 }
+
