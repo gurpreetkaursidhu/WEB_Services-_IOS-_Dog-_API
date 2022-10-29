@@ -17,6 +17,7 @@
 		15FA04F3290D95E5004D35A4 /* BreedListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA04F2290D95E5004D35A4 /* BreedListTableViewController.swift */; };
 		15FA04F5290D9958004D35A4 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA04F4290D9958004D35A4 /* APIHelper.swift */; };
 		15FA04F7290D9D7D004D35A4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA04F6290D9D7D004D35A4 /* TableViewCell.swift */; };
+		15FA04F9290DA265004D35A4 /* FullImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA04F8290DA265004D35A4 /* FullImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		15FA04F2290D95E5004D35A4 /* BreedListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedListTableViewController.swift; sourceTree = "<group>"; };
 		15FA04F4290D9958004D35A4 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
 		15FA04F6290D9D7D004D35A4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		15FA04F8290DA265004D35A4 /* FullImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				15FA04EE290D94B1004D35A4 /* DogImage.swift */,
 				15FA04F0290D9526004D35A4 /* DogBreed.swift */,
 				15FA04F2290D95E5004D35A4 /* BreedListTableViewController.swift */,
+				15FA04F8290DA265004D35A4 /* FullImageViewController.swift */,
 				15FA04F6290D9D7D004D35A4 /* TableViewCell.swift */,
 				15FA04F4290D9958004D35A4 /* APIHelper.swift */,
 				15FA04E0290D9099004D35A4 /* Main.storyboard */,
@@ -155,6 +158,7 @@
 				15FA04DB290D9099004D35A4 /* AppDelegate.swift in Sources */,
 				15FA04F3290D95E5004D35A4 /* BreedListTableViewController.swift in Sources */,
 				15FA04F1290D9526004D35A4 /* DogBreed.swift in Sources */,
+				15FA04F9290DA265004D35A4 /* FullImageViewController.swift in Sources */,
 				15FA04EF290D94B1004D35A4 /* DogImage.swift in Sources */,
 				15FA04DD290D9099004D35A4 /* SceneDelegate.swift in Sources */,
 			);

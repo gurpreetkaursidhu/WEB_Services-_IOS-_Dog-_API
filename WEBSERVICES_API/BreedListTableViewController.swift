@@ -27,7 +27,7 @@ class BreedListTableViewController: UITableViewController {
     
     override   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return animal.count
         
         
     }
@@ -66,5 +66,19 @@ class BreedListTableViewController: UITableViewController {
     }
         
         
+    // perform segue operation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+        //set cell as index
+        let index = tableView.indexPathForSelectedRow!.row
+        //set selected dog name value (string)
+        let selectedDog = animal[index].self
+        let dst = segue.destination as! FullImageViewController
+        //set dog breed view controller's variable dogName as selected dog name
+        dst.dogName = selectedDog
     }
+    
+}
+
 
