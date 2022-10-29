@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		15FA04DB290D9099004D35A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA04DA290D9099004D35A4 /* AppDelegate.swift */; };
 		15FA04DD290D9099004D35A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA04DC290D9099004D35A4 /* SceneDelegate.swift */; };
-		15FA04DF290D9099004D35A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA04DE290D9099004D35A4 /* ViewController.swift */; };
 		15FA04E2290D9099004D35A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FA04E0290D9099004D35A4 /* Main.storyboard */; };
 		15FA04E4290D9099004D35A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15FA04E3290D9099004D35A4 /* Assets.xcassets */; };
 		15FA04E7290D9099004D35A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FA04E5290D9099004D35A4 /* LaunchScreen.storyboard */; };
@@ -17,13 +16,13 @@
 		15FA04F1290D9526004D35A4 /* DogBreed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA04F0290D9526004D35A4 /* DogBreed.swift */; };
 		15FA04F3290D95E5004D35A4 /* BreedListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA04F2290D95E5004D35A4 /* BreedListTableViewController.swift */; };
 		15FA04F5290D9958004D35A4 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA04F4290D9958004D35A4 /* APIHelper.swift */; };
+		15FA04F7290D9D7D004D35A4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA04F6290D9D7D004D35A4 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		15FA04D7290D9099004D35A4 /* WEBSERVICES_API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WEBSERVICES_API.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15FA04DA290D9099004D35A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15FA04DC290D9099004D35A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		15FA04DE290D9099004D35A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		15FA04E1290D9099004D35A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15FA04E3290D9099004D35A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15FA04E6290D9099004D35A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +31,7 @@
 		15FA04F0290D9526004D35A4 /* DogBreed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreed.swift; sourceTree = "<group>"; };
 		15FA04F2290D95E5004D35A4 /* BreedListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedListTableViewController.swift; sourceTree = "<group>"; };
 		15FA04F4290D9958004D35A4 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		15FA04F6290D9D7D004D35A4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +66,10 @@
 			children = (
 				15FA04DA290D9099004D35A4 /* AppDelegate.swift */,
 				15FA04DC290D9099004D35A4 /* SceneDelegate.swift */,
-				15FA04DE290D9099004D35A4 /* ViewController.swift */,
 				15FA04EE290D94B1004D35A4 /* DogImage.swift */,
 				15FA04F0290D9526004D35A4 /* DogBreed.swift */,
 				15FA04F2290D95E5004D35A4 /* BreedListTableViewController.swift */,
+				15FA04F6290D9D7D004D35A4 /* TableViewCell.swift */,
 				15FA04F4290D9958004D35A4 /* APIHelper.swift */,
 				15FA04E0290D9099004D35A4 /* Main.storyboard */,
 				15FA04E3290D9099004D35A4 /* Assets.xcassets */,
@@ -151,7 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15FA04F5290D9958004D35A4 /* APIHelper.swift in Sources */,
-				15FA04DF290D9099004D35A4 /* ViewController.swift in Sources */,
+				15FA04F7290D9D7D004D35A4 /* TableViewCell.swift in Sources */,
 				15FA04DB290D9099004D35A4 /* AppDelegate.swift in Sources */,
 				15FA04F3290D95E5004D35A4 /* BreedListTableViewController.swift in Sources */,
 				15FA04F1290D9526004D35A4 /* DogBreed.swift in Sources */,
