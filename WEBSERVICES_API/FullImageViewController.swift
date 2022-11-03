@@ -13,9 +13,17 @@ class FullImageViewController: UITableViewController {
         let URL: String = "https://dog.ceo/api/breed/"
         
       
-        @IBOutlet weak var FullImage: UIImageView!
-        @IBOutlet weak var dogBreed: UILabel!
-        @IBOutlet weak var spinner: UIActivityIndicatorView!
+    
+    @IBOutlet weak var FullImage: UIImageView!
+    
+    
+    @IBOutlet weak var dogBreed: UILabel!
+    
+    
+    @IBOutlet weak var spinner: UIActivityIndicatorView!
+    
+    
+     
         
         override func viewDidLoad() {
             super.viewDidLoad()

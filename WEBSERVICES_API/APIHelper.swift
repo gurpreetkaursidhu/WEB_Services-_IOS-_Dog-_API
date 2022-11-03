@@ -32,11 +32,11 @@ struct APIHelper{
                     let jsonObject = try JSONSerialization.jsonObject(with: data, options: [])
                     guard // guard function if there would be any kind of error in fetching data
                         let jsonDictionary = jsonObject as? [AnyHashable: Any],
-                        let breedType = jsonDictionary["message"] as? [String]
+                        let dogType = jsonDictionary["message"] as? [String]
                     else {preconditionFailure("could not parse JSOn data")}
                     //receive data from jsonDictionary
-                    for i in 0..<breedType.count {
-                        let item = breedType[i]
+                    for i in 0..<dogType.count {
+                        let item = dogType[i]
                         newArray.append(item)
                     }
                     OperationQueue.main.addOperation {

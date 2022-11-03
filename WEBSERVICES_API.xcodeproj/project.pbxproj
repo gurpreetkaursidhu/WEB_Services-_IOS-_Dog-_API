@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		15FA04DB290D9099004D35A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA04DA290D9099004D35A4 /* AppDelegate.swift */; };
 		15FA04DD290D9099004D35A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA04DC290D9099004D35A4 /* SceneDelegate.swift */; };
-		15FA04E2290D9099004D35A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FA04E0290D9099004D35A4 /* Main.storyboard */; };
 		15FA04E4290D9099004D35A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15FA04E3290D9099004D35A4 /* Assets.xcassets */; };
 		15FA04E7290D9099004D35A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FA04E5290D9099004D35A4 /* LaunchScreen.storyboard */; };
 		15FA04EF290D94B1004D35A4 /* DogImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA04EE290D94B1004D35A4 /* DogImage.swift */; };
@@ -18,13 +17,13 @@
 		15FA04F5290D9958004D35A4 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA04F4290D9958004D35A4 /* APIHelper.swift */; };
 		15FA04F7290D9D7D004D35A4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA04F6290D9D7D004D35A4 /* TableViewCell.swift */; };
 		15FA04F9290DA265004D35A4 /* FullImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FA04F8290DA265004D35A4 /* FullImageViewController.swift */; };
+		15FA0522290DBAB9004D35A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FA0520290DBAB9004D35A4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		15FA04D7290D9099004D35A4 /* WEBSERVICES_API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WEBSERVICES_API.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15FA04DA290D9099004D35A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15FA04DC290D9099004D35A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		15FA04E1290D9099004D35A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15FA04E3290D9099004D35A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15FA04E6290D9099004D35A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15FA04E8290D9099004D35A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -34,6 +33,7 @@
 		15FA04F4290D9958004D35A4 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
 		15FA04F6290D9D7D004D35A4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		15FA04F8290DA265004D35A4 /* FullImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullImageViewController.swift; sourceTree = "<group>"; };
+		15FA0521290DBAB9004D35A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/DogAPI-IOS-main/DogAPITest3/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 				15FA04F8290DA265004D35A4 /* FullImageViewController.swift */,
 				15FA04F6290D9D7D004D35A4 /* TableViewCell.swift */,
 				15FA04F4290D9958004D35A4 /* APIHelper.swift */,
-				15FA04E0290D9099004D35A4 /* Main.storyboard */,
+				15FA0520290DBAB9004D35A4 /* Main.storyboard */,
 				15FA04E3290D9099004D35A4 /* Assets.xcassets */,
 				15FA04E5290D9099004D35A4 /* LaunchScreen.storyboard */,
 				15FA04E8290D9099004D35A4 /* Info.plist */,
@@ -142,7 +142,7 @@
 			files = (
 				15FA04E7290D9099004D35A4 /* LaunchScreen.storyboard in Resources */,
 				15FA04E4290D9099004D35A4 /* Assets.xcassets in Resources */,
-				15FA04E2290D9099004D35A4 /* Main.storyboard in Resources */,
+				15FA0522290DBAB9004D35A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,20 +167,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		15FA04E0290D9099004D35A4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				15FA04E1290D9099004D35A4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		15FA04E5290D9099004D35A4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				15FA04E6290D9099004D35A4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		15FA0520290DBAB9004D35A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15FA0521290DBAB9004D35A4 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
